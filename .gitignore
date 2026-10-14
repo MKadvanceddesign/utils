@@ -1,0 +1,7 @@
+# Standard projektów v1 (E2): sekrety, środowiska i śmieci systemu poza gitem
+.env
+.claude/settings.local.json
+Thumbs.db
+desktop.ini
+.venv/
+__pycache__/
