@@ -14,3 +14,11 @@ wynik = paginate(list(range(120)), page=2, limit=50)
 ```
 
 Strony liczone są od 1. Lista pusta daje jedną stronę bez danych (`total_pages` wynosi co najmniej 1).
+
+## Testy
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+Tylko biblioteka standardowa Pythona.
